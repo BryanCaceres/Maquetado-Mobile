@@ -1,0 +1,21 @@
+
+.plans-cards-slider-container {
+    justify-content: center;
+}
+
+.product-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 930px;
+    margin: 0 auto;
+}
+
+.header-title-container .header-button {
+    width: 50%;
+    left: calc(50% - 25%);
+}
+
+.full-tables-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

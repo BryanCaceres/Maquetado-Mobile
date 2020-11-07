@@ -58,6 +58,7 @@ header img {
     margin-top: 50px;
     text-align: center;
     align-self: center;
+    
 }
 
 .header-title-container h1 {
@@ -65,6 +66,7 @@ header img {
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--white);
+    
 }
 
 .header-title-container p {
@@ -73,4 +75,155 @@ header img {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
+}
+
+.header-title-container .header-button {
+    position: absolute;
+    left: calc(50% - 114.5px);
+    /* Aquí el como centró el elemento */
+
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header-button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/mini-down-arrow.svg');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    /* Esto es para que el tamaño vaya siendo segun la cantidad de contenido que tenga */
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container-title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container .backgroung-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(./assets/images/bitcoin-net.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+/***************** TABLAS DE VALORES MONEDAS *******************/
+
+.main-tables-title h3 {
+    color: var(--bitcoin-orange);
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.main-tables-grid-container {
+    width: 77%;
+    min-width: 235px;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+}
+
+.main-tables-grid-container div {
+    padding: 15px 10px;
+    font-size: 1.6rem;
+    color: var(--gray);
+    font-family: 'Inter', sans-serif; 
+    border: rgba(89, 73, 30, 0.15) solid 1px;
+    background-color: var(--white);
+}
+
+.main-tables-grid-container div span {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    margin-left: 13px;
+}
+
+.main-tables-grid-container .main-table-coin-name-top-left {
+    border-radius: 15px 0 0 0;
+}
+
+.main-tables-grid-container .main-table-coin-value-top-rigth {
+    border-radius: 0 15px 0 0;
+}
+
+.main-tables-grid-container .main-table-coin-name-button-left {
+    border-radius: 0 0 0 15px;
+}
+
+.main-tables-grid-container .main-table-coin-value-button-rigth{
+    border-radius: 0 0 15px 0;
+}
+
+.main-tables-grid-container div .value-up {
+    background-image: url(./assets/icons/trending-up.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-tables-grid-container div .value-down {
+    background-image: url(./assets/icons/trending-down.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.currency-table-date {
+    width: 72%;
+    min-width: 200px;
+    margin: 24px auto;
+    padding: 10px 5px;
+    background-color: #FFE9D4;
+    border-radius: 15px;
+}
+
+.currency-date-button .currency-table-date {
+    color: black;
 }
